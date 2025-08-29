@@ -6,10 +6,10 @@
   <title>Lending Heights Immersion — Reserve Your Spot</title>
   <meta name="description" content="An exclusive Success Track for Lending Heights LOs and their agents. December 18, 2025 at UWM Campus. Space limited to 60. Confirm by Sept 10." />
 
-  <!-- Fonts: Montserrat (headings) + Open Sans (body) -->
+  <!-- Fonts: Poppins -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -18,14 +18,13 @@
       theme: {
         extend: {
           fontFamily: {
-            montserrat: ['Montserrat', 'ui-sans-serif', 'system-ui'],
-            opensans: ['Open Sans', 'ui-sans-serif', 'system-ui']
+            poppins: ['Poppins', 'ui-sans-serif', 'system-ui']
           },
           colors: {
             lhblue: '#0058A9',
             lhred: '#CE003B',
             lhyellow: '#E2C028',
-            lhdark: '#28282B'
+            lhdark: '#1E1E1E'
           },
           boxShadow: {
             'soft': '0 10px 25px rgba(0,0,0,0.07)'
@@ -37,9 +36,10 @@
 
   <style>
     .hero-overlay { background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.55) 100%); }
+    html{scroll-behavior:smooth}
   </style>
 </head>
-<body class="font-opensans text-lhdark bg-gray-50">
+<body class="font-poppins text-lhdark bg-gray-50">
   <!-- Top Bar / Nav (simple) -->
   <header class="w-full bg-white/80 backdrop-blur border-b border-gray-200 sticky top-0 z-40">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
@@ -47,7 +47,7 @@
         <!-- Logo placeholder -->
         <div class="h-9 w-9 rounded-lg bg-lhblue flex items-center justify-center text-white font-bold">LH</div>
         <div class="leading-tight">
-          <div class="font-montserrat font-extrabold tracking-tight">Lending Heights Immersion</div>
+          <div class="font-poppins font-extrabold tracking-tight">Lending Heights Immersion</div>
           <div class="text-sm text-gray-500">Exclusive Success Track</div>
         </div>
       </div>
@@ -67,7 +67,7 @@
     <div class="absolute inset-0 flex items-center">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="max-w-2xl text-white">
-          <h1 class="font-montserrat font-extrabold text-4xl sm:text-5xl leading-tight">Unlock Growth at <span class="text-lhyellow">Lending Heights Immersion</span></h1>
+          <h1 class="font-poppins font-extrabold text-4xl sm:text-5xl leading-tight">Unlock Growth at <span class="text-lhyellow">Lending Heights Immersion</span></h1>
           <p class="mt-4 text-lg sm:text-xl text-white/90">An exclusive, invite-only Success Track for LOs and their agents — December 18, 2025 · UWM Campus, Pontiac MI</p>
           <div class="mt-6 flex flex-wrap items-center gap-4">
             <a href="#rsvp" class="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-lhblue text-white font-semibold shadow-soft hover:translate-y-[-1px] transition">Reserve My Spot</a>
@@ -82,7 +82,7 @@
   <section id="why" class="py-16 lg:py-20">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl">
-        <h2 class="font-montserrat text-3xl font-extrabold tracking-tight">Why Attend</h2>
+        <h2 class="font-poppins text-3xl font-extrabold tracking-tight">Why Attend</h2>
         <p class="mt-2 text-gray-600">Last year sold out. This year, we’re raising the bar — more strategy, more access, more growth.</p>
       </div>
       <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -122,16 +122,16 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="grid gap-8 md:grid-cols-3">
         <div class="rounded-2xl p-6 border bg-gray-50">
-          <h3 class="font-montserrat text-xl font-extrabold">When</h3>
+          <h3 class="font-poppins text-xl font-extrabold">When</h3>
           <p class="mt-2 text-gray-700"><span class="font-semibold">Event:</span> Thu, Dec 18, 2025</p>
           <p class="text-gray-700"><span class="font-semibold">Travel:</span> Arrive Dec 17 · Depart Dec 19</p>
         </div>
         <div class="rounded-2xl p-6 border bg-gray-50">
-          <h3 class="font-montserrat text-xl font-extrabold">Where</h3>
+          <h3 class="font-poppins text-xl font-extrabold">Where</h3>
           <p class="mt-2 text-gray-700">UWM Campus · Pontiac, MI</p>
         </div>
         <div class="rounded-2xl p-6 border bg-gray-50">
-          <h3 class="font-montserrat text-xl font-extrabold">Who</h3>
+          <h3 class="font-poppins text-xl font-extrabold">Who</h3>
           <p class="mt-2 text-gray-700">60 Total Attendees</p>
           <ul class="mt-1 text-gray-700 list-disc list-inside">
             <li>15 Loan Officers</li>
@@ -147,7 +147,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-2 gap-10 items-center">
         <div>
-          <h2 class="font-montserrat text-3xl font-extrabold tracking-tight">Your Ticket: Bring 3 Agents</h2>
+          <h2 class="font-poppins text-3xl font-extrabold tracking-tight">Your Ticket: Bring 3 Agents</h2>
           <p class="mt-4 text-gray-700">This experience is built for teams. To attend, each Loan Officer must bring <span class="font-semibold">three real estate agents</span> they’re actively cultivating. You’ll learn together — and go to market together.</p>
           <ul class="mt-4 space-y-2 text-gray-700">
             <li>✔️ Multiply reach and referrals</li>
@@ -173,23 +173,23 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-white">
       <div class="grid gap-8 md:grid-cols-2 items-center">
         <div>
-          <h3 class="font-montserrat text-2xl font-extrabold">Confirm by September 10</h3>
+          <h3 class="font-poppins text-2xl font-extrabold">Confirm by September 10</h3>
           <p class="mt-2 text-white/80">Space is limited and seats go fast. Don’t miss out.</p>
           <div id="countdown" class="mt-6 grid grid-cols-4 gap-3 text-center" data-deadline="2025-09-10T23:59:59-04:00">
             <div class="rounded-xl bg-white/10 p-4">
-              <div id="cd-days" class="text-3xl font-extrabold font-montserrat">--</div>
+              <div id="cd-days" class="text-3xl font-extrabold font-poppins">--</div>
               <div class="text-xs uppercase tracking-wider text-white/70">Days</div>
             </div>
             <div class="rounded-xl bg-white/10 p-4">
-              <div id="cd-hours" class="text-3xl font-extrabold font-montserrat">--</div>
+              <div id="cd-hours" class="text-3xl font-extrabold font-poppins">--</div>
               <div class="text-xs uppercase tracking-wider text-white/70">Hours</div>
             </div>
             <div class="rounded-xl bg-white/10 p-4">
-              <div id="cd-mins" class="text-3xl font-extrabold font-montserrat">--</div>
+              <div id="cd-mins" class="text-3xl font-extrabold font-poppins">--</div>
               <div class="text-xs uppercase tracking-wider text-white/70">Mins</div>
             </div>
             <div class="rounded-xl bg-white/10 p-4">
-              <div id="cd-secs" class="text-3xl font-extrabold font-montserrat">--</div>
+              <div id="cd-secs" class="text-3xl font-extrabold font-poppins">--</div>
               <div class="text-xs uppercase tracking-wider text-white/70">Secs</div>
             </div>
           </div>
@@ -211,7 +211,7 @@
   <!-- Testimonials -->
   <section class="py-16">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <h3 class="font-montserrat text-2xl font-extrabold">What Attendees Say</h3>
+      <h3 class="font-poppins text-2xl font-extrabold">What Attendees Say</h3>
       <div class="mt-6 grid gap-6 md:grid-cols-2">
         <blockquote class="rounded-2xl bg-white p-6 shadow-soft border">
           <p class="text-lg">“Best event I’ve ever attended. My purchase business doubled in 90 days.”</p>
@@ -229,7 +229,7 @@
   <section id="rsvp" class="py-20 bg-white border-t border-gray-200/60">
     <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl">
-        <h2 class="font-montserrat text-3xl font-extrabold">Reserve Your Spot</h2>
+        <h2 class="font-poppins text-3xl font-extrabold">Reserve Your Spot</h2>
         <p class="mt-2 text-gray-600">Loan Officers: attendance requires three agent guests. Provide their names and emails below.</p>
       </div>
 
@@ -305,7 +305,7 @@
 
       <!-- Success state -->
       <div id="success" class="hidden mt-10 rounded-2xl border bg-green-50 p-6 border-green-200">
-        <h3 class="font-montserrat text-xl font-extrabold text-green-800">You’re in! 🎉</h3>
+        <h3 class="font-poppins text-xl font-extrabold text-green-800">You’re in! 🎉</h3>
         <p class="mt-2 text-green-800">Thanks for reserving your spot at Lending Heights Immersion. We’ll email you next steps, hotel info, and the agenda. If any of your invited agents can’t attend, please update us ASAP so we can finalize logistics.</p>
       </div>
     </div>
@@ -314,7 +314,7 @@
   <!-- Final CTA Banner -->
   <section class="py-10 bg-gradient-to-r from-lhblue to-lhred text-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-      <h3 class="font-montserrat text-2xl font-extrabold">Only 60 Seats. Confirm by Sept 10.</h3>
+      <h3 class="font-poppins text-2xl font-extrabold">Only 60 Seats. Confirm by Sept 10.</h3>
       <a href="#rsvp" class="inline-block mt-4 px-6 py-3 rounded-xl bg-white text-lhdark font-semibold hover:bg-white/90">Reserve My Spot</a>
     </div>
   </section>
@@ -387,7 +387,7 @@
     })();
 
     // =========================
-    // Form Validation + Submit
+    // Form Validation + Submit (Webhook to be added next step)
     // =========================
     (function formHandler(){
       const form = document.getElementById('immersion-form');
@@ -424,10 +424,8 @@
           return showError('One or more emails look invalid. Please double-check.');
         }
 
-        // === Integrate submission here ===
-        // Example: send to your endpoint / Zapier / Jotform webhook
-        // await fetch('https://your-endpoint.example/immersion', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(data) });
-        console.log('Submission payload:', data);
+        // === Webhook integration will be added in the next step ===
+        console.log('Submission payload (preview):', data);
 
         form.reset();
         successBox.classList.remove('hidden');
